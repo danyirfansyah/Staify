@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="signup-form-wrapper">
+        <form class="signup-form" action="login.html">
+            <div class="image-with-text">
+                <img src="1.png" alt="Logo">
+                <div class="text-next-to-image">
+                    <h2>Student <br>Activity</h2>
+                </div>
+            </div>
+            <h2>Create Account</h2>
+            <label for="namalengkap">Nama Lengkap</label>
+            <input type="text" id="namalengkap" name="namalengkap" required>
+            <label for="nim">NIM</label>
+            <input type="text" id="nim" name="nim" pattern="\d+" title="NIM harus berupa angka" required>
+            <label for="jurusan">Jurusan</label>
+            <input type="text" id="jurusan" name="jurusan">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <input type="submit" value="Daftar"> 
+            <div class="login-link">
+                <p>Sudah memiliki akun ? <a href="login.html">Login disini</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
